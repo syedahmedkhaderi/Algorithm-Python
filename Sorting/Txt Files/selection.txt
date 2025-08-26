@@ -1,0 +1,19 @@
+What is Selection Sort?
+	•	Selection Sort is a simple comparison-based sorting algorithm.
+	•	The algorithm works by repeatedly selecting the minimum element 
+    •   from the unsorted portion of the array and placing it at the beginning.
+	•	This process continues until the entire array is sorted.
+
+Time Complexity:
+	•	Worst Case: O(n²)
+	•	Average Case: O(n²)
+	•	Best Case: O(n²)
+	•	Regardless of array state, Selection Sort always performs the same number of comparisons 
+    •   because it must scan through the unsorted portion to find the minimum each time.
+    
+How it Works (Step by Step):
+	1.	Divide the array into two parts: sorted and unsorted.
+	2.	Find the smallest element in the unsorted part.
+	3.	Swap it with the first element of the unsorted part.
+	4.	Now the sorted part grows, and the unsorted part shrinks.
+	5.	Repeat until the array is sorted.
