@@ -1,13 +1,18 @@
+What is Bubble Sort?
+	•	Bubble Sort is one of the simplest sorting algorithms.
+	•	It works by repeatedly stepping through the list, comparing adjacent elements,
+    •   and swapping them if they are in the wrong order.
+	•	The “largest” elements gradually move to the end of the list with each pass
+    •   — like bubbles rising to the top.
 
-In Bubble Sort, the largest value is bubbled up in every pass.
-    -Every two adjacent items are compared 
-    -and they are swapped if they are in the wrong order.
-    -This way, after every pass, the largest element reaches to the end of the array.
-    -Time complexity of Bubble Sort in Worst 
-    -and Average Case is O(n^2) and in best case, its O(n)
-
-There is another method of creating bubble sort which is more optimized.
-    -We can optimize the bubble sort slightly by adding a new boolean variable
-    -which keeps track of wehether any swaps were done in the last iteration or not
-    -This way, if say halfway through the loops, 
-    -the array becomes completely sorted, then we won't do unnecessary comparisons
+Time Complexity:
+	•	Worst Case: O(n²) → Happens when the list is in reverse order.
+	•	Average Case: O(n²) → For a randomly ordered list.
+	•	Best Case: O(n) → When the list is already sorted (with an optimized version).
+    
+Working of Bubble Sort:
+	1.	Compare two adjacent items.
+	2.	Swap them if they are in the wrong order.
+	3.	Repeat this process for every adjacent pair in the list.
+	4.	After each pass, the largest value settles at the end of the list.
+	5.	Continue until the entire list is sorted.
