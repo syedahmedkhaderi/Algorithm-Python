@@ -1,0 +1,19 @@
+What is Insertion Sort?
+	•	Insertion Sort is a simple comparison-based sorting algorithm.
+	•	It builds the final sorted array (or list) one item at a time.
+	•	The algorithm works by taking elements from the unsorted portion and inserting them into their correct position in the sorted portion.
+	•	This process is efficient for small data sets or nearly sorted arrays.
+
+Time Complexity:
+	•	Worst Case: O(n²)
+	•	Average Case: O(n²)
+	•	Best Case: O(n)
+	•	It performs fewer comparisons when the array is already partially sorted, making the best case O(n).
+
+How it Works (Step by Step):
+	1.	Consider the first element as the initial sorted portion.
+	2.	Take the next element from the unsorted portion.
+	3.	Compare it with the elements in the sorted portion, starting from the right.
+	4.	Shift all larger elements in the sorted portion one position to the right to make space.
+	5.	Insert the element into its correct position.
+	6.	Repeat the process until the entire array is sorted.
