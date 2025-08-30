@@ -1,0 +1,56 @@
+
+Dynamic Programming (DP) is a method used in computer science to solve problems 
+by breaking them down into smaller,overlapping subproblems.
+Instead of solving the same subproblem multiple times, DP solves it once, stores the result, and reuses it when needed.
+This reduces time complexity and makes solving otherwise expensive problems feasible.
+
+Key Concepts in Dynamic Programming
+1. Overlapping Subproblems
+   - Many problems can be broken into smaller problems that repeat.
+   - Example: Fibonacci numbers: F(n) = F(n-1) + F(n-2). To compute F(5), you also compute F(4), F(3), etc., multiple times.
+2. Optimal Substructure
+   - A problem has an optimal substructure if the optimal solution to the problem can be built from the optimal solutions of its subproblems.
+   - Example: Shortest path in a graph (Dijkstra’s algorithm).
+3. Memoization (Top-Down DP)
+   - Store results of expensive function calls in a dictionary or array.
+   - Reuse stored results instead of recalculating.
+   - Typically implemented using recursion + cache (dictionary/list).
+4. Tabulation (Bottom-Up DP)
+   - Iterative approach.
+   - Solve smaller subproblems first and use them to build up to the final solution.
+   - Typically uses arrays for storage.
+
+Rules for Memoization (When to Use It)
+1. Check for Overlapping Subproblems**
+   - If solving the same subproblem multiple times, memoization helps.
+2. Check for Optimal Substructure**
+   - If the solution to a problem can be built from solutions to its subproblems, DP is a good approach.
+3. Recursive Relation Exists**
+   - There should be a formula or recurrence relation that connects the main problem to its subproblems.
+4. Avoiding Re-computation**
+   - Memoization is useful if re-computation wastes a lot of time.
+
+Steps to Apply Memoization
+   1. Write the recursive solution.
+   2. Identify repeating subproblems.
+   3. Store results of subproblems (dictionary/list).
+   4. Return stored results when needed.
+
+When to Use Dynamic Programming?
+- When a problem has **overlapping subproblems** and **optimal substructure**.
+- Common in problems like:
+  - Fibonacci sequence
+  - Knapsack problem
+  - Longest Common Subsequence (LCS)
+  - Shortest path problems
+  - Matrix chain multiplication
+
+Final Tips for Beginners
+   - Always try writing the recursive solution first.
+   - Add memoization to optimize it.
+   - If recursion depth is too high, consider tabulation (iterative DP).
+   - DP problems require practice—start with classic problems (Fibonacci, grid paths, knapsack).
+
+
+
+#Foolish_Chaos
