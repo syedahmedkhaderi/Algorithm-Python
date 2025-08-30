@@ -1,0 +1,33 @@
+A sorting algorithm is said to be stable if two objects with equal keys appear in the same order in sorted output as they appear in the input array to be sorted.
+Some sorting algorithms are stable by nature like Insertion sort, Merge Sort, Bubble Sort, etc.
+And some sorting algorithms are not, like Heap Sort, Quick Sort, etc.
+
+if the objects are : peach straw apple spork
+then after stable sorting we would get : apple peach straw spork
+
+In unstable sort, straw and spork may be interchanged.
+
+Stable Sorting Algorithms:
+    - Insertion Sort
+    - Merge Sort
+    - Bubble Sort
+    - Tim Sort
+    - Counting Sort
+    - Block Sort
+    - Quadsort
+    - Library Sort
+    - Cocktail shaker Sort
+    - Gnome Sort
+    - Odd–even Sort
+
+
+Unstable Sorting Algorithms:
+    - Heap sort
+    - Selection sort
+    - Shell sort
+    - Quick sort
+    - Introsort (subject to Quicksort)
+    - Tree sort
+    - Cycle sort
+    - Smoothsort
+    - Tournament sort(subject to Heapsort)
