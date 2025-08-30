@@ -1,0 +1,18 @@
+What is Merge Sort?
+	•	Merge Sort is a divide-and-conquer sorting algorithm.
+	•	It works by recursively dividing the array into halves until each subarray contains a single element.
+	•	Then, it merges these subarrays in a sorted manner to produce the final sorted array.
+	•	This algorithm is stable and efficient for large datasets.
+
+Time Complexity:
+	•	Worst Case: O(n log n)
+	•	Average Case: O(n log n)
+	•	Best Case: O(n log n)
+	•	The time complexity remains consistent because the divide and merge steps are always performed regardless of the array's initial order.
+
+How it Works (Step by Step):
+	1.	Divide the unsorted array into two halves recursively until each subarray has one element.
+	2.	Merge the two halves by comparing elements from each and placing the smaller one into a new array.
+	3.	Continue merging the subarrays until the entire array is merged and sorted.
+	4.	The merge process ensures that the combined array is sorted.
+	5.	Repeat until the full array is sorted.

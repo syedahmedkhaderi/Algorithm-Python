@@ -28,6 +28,11 @@ reverse_sorted_array = [9,8,7,6,5,4,3,2,1,0,-1,-2,-3,-4,-5,-6,-7,-8,-9,-10]
 print(insertion_sort(reverse_sorted_array))
 
 
+
+
+
+
+
 # Method 2
 def insertion_sort2(arr):
     for i in range(1, len(arr)):
@@ -42,6 +47,12 @@ def insertion_sort2(arr):
 # Example usage:
 arr = [11, 9, 3, 10, 45, 2, 0]
 print("Sorted array:", insertion_sort2(arr))
+
+
+
+
+
+
 
 # Method 3
 def insertion_sort3(array):

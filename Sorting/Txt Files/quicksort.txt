@@ -1,0 +1,17 @@
+What is Quick Sort?
+	•	Quick Sort is a divide-and-conquer sorting algorithm.
+	•	It works by selecting a pivot element and partitioning the array around the pivot.
+	•	Elements smaller than the pivot go to the left, and larger ones to the right.
+	•	It then recursively sorts the subarrays on either side of the pivot.
+
+Time Complexity:
+	•	Worst Case: O(n²) → Occurs when the pivot is poorly chosen, like in a sorted or reverse-sorted array.
+	•	Average Case: O(n log n) → For randomly ordered arrays with a good pivot.
+	•	Best Case: O(n log n) → When the pivot consistently divides the array evenly.
+    
+How it Works (Step by Step):
+	1.	Choose a pivot element from the array.
+	2.	Partition the array so that elements less than the pivot are on the left and greater on the right.
+	3.	Recursively apply Quick Sort to the left subarray.
+	4.	Recursively apply Quick Sort to the right subarray.
+	5.	Continue until the base case is reached (subarrays of size 1), resulting in a sorted array.
