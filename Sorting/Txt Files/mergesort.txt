@@ -16,3 +16,6 @@ How it Works (Step by Step):
 	3.	Continue merging the subarrays until the entire array is merged and sorted.
 	4.	The merge process ensures that the combined array is sorted.
 	5.	Repeat until the full array is sorted.
+
+The beauty of merge sort is that it guarantees O(n log n) performance regardless of input order,
+making it very reliable for large datasets!
