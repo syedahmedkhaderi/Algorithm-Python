@@ -1,0 +1,19 @@
+Insertion Sort:
+    - Use when only few items or small input or nearly sorted input.
+    - In that case its really fast and uses very little space and is easily implemented
+
+Bubble Sort and Selection Sort:
+    - You are never going to use bubble sort honestly.
+    - Its just there for understanding sorts.
+
+Merge Sort:
+    - Really good because of divide and conquer.
+    - If you are ever worried about worst case scenario, use merge sort.
+    - But if you are worried about memory or space complexity then merge sort is expensive to use.
+    - o(n) space complexity
+    - if you have external space, then merge sort is really good.
+
+Quick Sort:
+    - Better than merge sort in terms of both space and time complexity.
+    - But just the worst case for time complexity is 0(n^2).
+    - Its probably the most popular one.
