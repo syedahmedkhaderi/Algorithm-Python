@@ -1,5 +1,4 @@
-
-Dynamic Programming (DP) is a method used in computer science to solve problems 
+Dynamic Programming (DP) is a method used in computer science to solve problems
 by breaking them down into smaller,overlapping subproblems.
 Instead of solving the same subproblem multiple times, DP solves it once, stores the result, and reuses it when needed.
 This reduces time complexity and makes solving otherwise expensive problems feasible.
@@ -21,11 +20,11 @@ Key Concepts in Dynamic Programming
    - Typically uses arrays for storage.
 
 Rules for Memoization (When to Use It)
-1. Check for Overlapping Subproblems**
+1. Check for Overlapping Subproblems
    - If solving the same subproblem multiple times, memoization helps.
 2. Check for Optimal Substructure**
    - If the solution to a problem can be built from solutions to its subproblems, DP is a good approach.
-3. Recursive Relation Exists**
+3. Recursive Relation Exists
    - There should be a formula or recurrence relation that connects the main problem to its subproblems.
 4. Avoiding Re-computation**
    - Memoization is useful if re-computation wastes a lot of time.
