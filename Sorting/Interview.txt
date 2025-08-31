@@ -1,0 +1,31 @@
+#1 - Sort 10 schools around your house by distance:
+insertion sort
+Reason: Insertion sort is efficient for small datasets, easy to implement, and faster than more complex algorithms for just 10 items.
+
+#2 - eBay sorts listings by the current Bid amount:
+radix or counting sort
+Reason: These sorts are highly efficient for non-negative integer keys like bid amounts, and faster than comparison sorts on large datasets.
+
+#3 - Sort scores on ESPN
+Quick sort
+Reason: Quick sort performs well on large, unsorted sets of numbers and has excellent average-case speed.
+
+#4 - Massive database (can't fit all into memory) needs to sort through past year's user data
+Merge Sort
+Reason: Merge sort is ideal for external sorting because it can process data in chunks and works efficiently when data can't fit into RAM.
+
+#5 - Almost sorted Udemy review data needs to update and add 2 new reviews
+Insertion Sort
+Reason: Insertion sort is optimal for nearly sorted data and quick to insert a small number of new elements.
+
+#6 - Temperature Records for the past 50 years in Canada
+radix or counting Sort
+Reason: These are excellent for sorting fixed-range integer data; use quick sort if temperatures have decimals.
+
+#7 - Large user name database needs to be sorted. Data is very random.
+Quick sort
+Reason: Quick sort efficiently handles large, random datasets and is usually the fastest general-purpose algorithm for strings.
+
+#8 - You want to teach sorting
+Bubble sort
+Reason: Bubble sort is easy to understand and visualize for beginners, even though it's slow for real-world use.
