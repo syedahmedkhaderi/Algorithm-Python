@@ -52,15 +52,15 @@ class BST():
     def preOrder_Traversal(self, curr, mylist):
         while curr is not None: #Base case is Curr = None
             mylist.append(curr.data)
-            self.inOrder_Traversal(curr.left, mylist)
-            self.inOrder_Traversal(curr.right, mylist)
+            self.preOrder_Traversal(curr.left, mylist)
+            self.preOrder_Traversal(curr.right, mylist)
         return mylist
     
     def postOrder_Traversal(self, curr, mylist):
         if curr.left:
-            self.preOrder_Traversal(curr.left, mylist)
+            self.postOrder_Traversal(curr.left, mylist)
         if curr.right:
-            self.preOrder_Traversal(curr.right, mylist)
+            self.postOrder_Traversal(curr.right, mylist)
         mylist.append(curr.data)
         return mylist
 
