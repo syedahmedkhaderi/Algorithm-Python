@@ -64,4 +64,3 @@ ALGORITHMS/
 ## License
 
 This repository is for educational purposes. Licensing terms should be specified according to contributor or organizational policy.
-```
