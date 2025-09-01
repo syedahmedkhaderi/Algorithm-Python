@@ -42,7 +42,30 @@ class BST():
                 curr = curr.left
         return "Not found"
             
+    def inOrder_Traversal(self, curr, mylist):
+        while curr is not None: #Base case is Curr = None
+            self.inOrder_Traversal(curr.left, mylist)
+            mylist.append(curr.data)
+            self.inOrder_Traversal(curr.right, mylist)
+        return mylist
+
+    def preOrder_Traversal(self, curr, mylist):
+        while curr is not None: #Base case is Curr = None
+            mylist.append(curr.data)
+            self.inOrder_Traversal(curr.left, mylist)
+            self.inOrder_Traversal(curr.right, mylist)
+        return mylist
     
+    def postOrder_Traversal(self, curr, mylist):
+        if curr.left:
+            self.preOrder_Traversal(curr.left, mylist)
+        if curr.right:
+            self.preOrder_Traversal(curr.right, mylist)
+        mylist.append(curr.data)
+        return mylist
+
+
+
 tree = BST()
 tree.insert(9)
 tree.insert(4)
@@ -51,6 +74,6 @@ tree.insert(20)
 tree.insert(170)
 tree.insert(15)
 tree.insert(1)
-print(tree.inorder(tree.root,[]))
-print(tree.preorder(tree.root,[]))
-print(tree.postorder(tree.root,[]))
+print(tree.inOrder_Traversal(tree.root,[]))
+print(tree.preOrder_Traversal(tree.root,[]))
+print(tree.postOrder_Traversal(tree.root,[]))
