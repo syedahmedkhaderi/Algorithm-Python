@@ -77,3 +77,13 @@ tree.insert(1)
 print(tree.inOrder_Traversal(tree.root,[]))
 print(tree.preOrder_Traversal(tree.root,[]))
 print(tree.postOrder_Traversal(tree.root,[]))
+
+'''
+            5
+        3       7
+    1               13
+0                10     65
+'''
+#Inorder traversal for this tree : [0, 1, 3, 5, 7, 10, 13, 65]
+#Preorder Traversal for this tree : [5, 3, 1, 0, 7, 13, 10, 65]
+#Postorder Traversal for this tree : [0, 1, 3, 10, 65, 13, 7, 5]
