@@ -1,4 +1,3 @@
-[```markdown
 # Algorithms Repository
 
 This repository contains categorized implementations of fundamental algorithms in Python, organized for structured learning and usage. The project directory is divided into key algorithmic paradigms with clearly named files and folders.
@@ -66,4 +65,3 @@ ALGORITHMS/
 
 This repository is for educational purposes. Licensing terms should be specified according to contributor or organizational policy.
 ```
-](https://www.perplexity.ai/search/ca937545-6703-4779-adaa-2fd68ad6a89a?0=c)
